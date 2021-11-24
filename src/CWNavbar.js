@@ -3,7 +3,7 @@ import logo from './icons8-wind-48.png';
 
 const CWNavbar = () => {
     return ( 
-        <Navbar bg="dark" expand="lg" variant="dark">
+        <Navbar expand="lg" variant="dark" className="topnav">
             <Container>
                 <Navbar.Brand href="/">
                     <img 
