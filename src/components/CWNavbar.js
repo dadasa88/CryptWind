@@ -1,5 +1,5 @@
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
-import logo from './icons8-wind-48.png';
+import logo from '../icons8-wind-48.png';
 
 const CWNavbar = () => {
     return ( 

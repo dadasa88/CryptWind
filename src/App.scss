@@ -1,10 +1,15 @@
 $background-primary: #320f6e;
+$background-secondary: #d3d3d3;
+$text-primary: #fff;
+$text-secondary: #5522ac;
+
 //footer stick to bottom
 .App {
     display:flex;
     flex-direction: column;
     min-height: 100vh;
-  }
+    font-family: Verdana;
+}
   
 .content {
     flex: 1 0 auto;
@@ -14,4 +19,27 @@ $background-primary: #320f6e;
 
 .topnav {
     background-color: $background-primary;
+}
+
+.card-title {
+    color: $text-secondary;
+}
+
+.jumboCard {
+    position: relative;
+}
+
+#tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+
+#jumbo {
+    z-index: 1
 }
